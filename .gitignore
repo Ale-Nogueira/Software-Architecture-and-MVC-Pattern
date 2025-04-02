@@ -174,3 +174,5 @@ cython_debug/
 .pypirc
 storage.db
 venv
+**/__pycache__
+.pytest_cache
