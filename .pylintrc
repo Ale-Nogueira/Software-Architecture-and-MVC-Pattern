@@ -8,6 +8,9 @@ disable=
       C0209, # Consider-using-f-string
       E0015, # unrecognized-option
       C0321, # More than one statement on a single line
+      W0719, # broad-exception-raised
+      C0303, # Trailing whitespace
+      C0304, # Final newline missing
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
